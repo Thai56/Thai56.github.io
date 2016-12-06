@@ -1,0 +1,8 @@
+<section class='shorts-page-wrapper'>
+  <div class="product-wrapper col-xs-12 col-sm-12 col-md-6 col-lg-4 " ng-repeat='short in shorts | filter: search'>
+      <img ng-click='clickToOpen(short.image,short.id,short.desc,short.price)' src="{{short.image}}" alt="" />
+      <p>{{short.type}}/{{short.color}}</p>
+      <h5>$ {{short.price}}</h5>
+  </div>
+
+</section>
