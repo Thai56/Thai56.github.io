@@ -1,8 +1,0 @@
-<section class='sweaters-page-wrapper'>
-  <div class="product-wrapper col-xs-12 col-sm-12 col-md-6 col-lg-4 " ng-repeat='sweater in sweaters | filter: search'>
-      <img ng-click='clickToOpen(sweater.image,sweater.id,sweater.desc,sweater.price)' src="{{sweater.image}}" alt="" />
-      <p>{{sweater.type}}/{{sweater.color}}</p>
-      <h5>$ {{sweater.price}}</h5>
-  </div>
-
-</section>
